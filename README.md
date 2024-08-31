@@ -39,6 +39,13 @@ I'm following this guide for the ec2-dynamoDB setup:
 https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/vpc-endpoints-dynamodb.html
 
 Ec2 instance name: Jenkins
-Publis DNS: ec2-54-149-50-230.us-west-2.compute.amazonaws.com
 
 
+Publis DNS: 
+```ec2-54-149-50-230.us-west-2.compute.amazonaws.com```
+
+ssh command: 
+```ssh -i my-keypair.pem ec2-user@public-dns-name```
+
+formatted:
+```ssh -i Jenkins.pem ec2-user@ec2-54-149-50-230.us-west-2.compute.amazonaws.com```
