@@ -35,6 +35,10 @@ In the future I can write an HTML parser to analyze this data; the mistake I've 
 
 -  
 
-I'm following this guide for the ec2 setup:
+I'm following this guide for the ec2-dynamoDB setup:
 https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/vpc-endpoints-dynamodb.html
+
+Ec2 instance name: Jenkins
+Publis DNS: ec2-54-149-50-230.us-west-2.compute.amazonaws.com
+
 
